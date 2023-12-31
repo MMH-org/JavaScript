@@ -21,3 +21,4 @@ let isLoggedIn= false;
 // console.table([age,name,isLoggedIn]);
 // console.log(typeof null); // object 
 // console.log(typeof undefined); // undefined
+
