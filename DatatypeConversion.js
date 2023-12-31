@@ -12,8 +12,8 @@ let score ="Devil"// null , "1334asd" , true/false, undefine
 // console.log(typeof(score));// string
 
 let valueInNumber= Number(score);
-console.log(typeof(valueInNumber));// string
-console.log(valueInNumber); // NaN
+// console.log(typeof(valueInNumber));// string
+// console.log(valueInNumber); // NaN
 
 // "33" => 33
 // "33abc" => NaN
@@ -21,3 +21,19 @@ console.log(valueInNumber); // NaN
 // false => 0
 // null => 0
 // undefine => NAN
+
+let isLoggedIn ="Devil";
+
+let booleanInLoggedIn = Boolean(isLoggedIn);
+// console.log(booleanInLoggedIn);
+
+// 1 => true
+// 2 => false 
+// "Devil" => true
+// " " => false
+
+
+let someNumber = 33
+let stringNumber = String(someNumber);
+console.log(stringNumber);
+console.log(typeof(stringNumber));
