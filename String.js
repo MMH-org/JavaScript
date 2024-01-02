@@ -16,5 +16,17 @@ const gameName= new String('mohsin')
 // console.log(gameName.charAt(4));
 // console.log(gameName.indexOf('m'));
 
-const newString = gameName.substring(0,4)
-console.log(newString);
+// const newString = gameName.substring(0,4)
+// console.log(newString);
+
+
+const anotherString = gameName.slice(2,4);
+// console.log(anotherString);
+
+
+// const newString = "     mohsin     ";
+// console.log(newString);
+// console.log(newString.trim());
+
+const url = "https://mohsin.com/mohsin%20haider";
+console.log(url.replace('%20','-'));
