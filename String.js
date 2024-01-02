@@ -6,7 +6,7 @@ const repoCount = 500;
 // console.log(`Hello My name is ${name} my repo count is ${repoCount}`)
 
 
-const gameName= new String('mohsin')
+// const gameName= new String('mohsin')
 
 // console.log(gameName[0]); // m
 // console.log(gameName.__proto__); // {}
@@ -20,7 +20,7 @@ const gameName= new String('mohsin')
 // console.log(newString);
 
 
-const anotherString = gameName.slice(2,4);
+// const anotherString = gameName.slice(2,4);
 // console.log(anotherString);
 
 
@@ -29,4 +29,13 @@ const anotherString = gameName.slice(2,4);
 // console.log(newString.trim());
 
 const url = "https://mohsin.com/mohsin%20haider";
-console.log(url.replace('%20','-'));
+// console.log(url.replace('%20','-'));
+
+// console.log(url.includes('sunder'))
+
+
+// const gameName= new String('mohsin-h')
+// console.log(gameName.split('-'));
+
+
+
