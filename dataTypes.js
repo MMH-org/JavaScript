@@ -30,6 +30,11 @@ let isLoggedIn= false;
 // 7 types :  String, Number ,boolean ,null ,undefined, Symbole, BigInt
 
 
+// const score:number=100  Type script
+// const score=100; // in JavaScript
+
+
+
 //  Reference (Non prrimitive)
 //  Array,Objects, Funtion
 
