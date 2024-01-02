@@ -63,3 +63,18 @@ let isLoggedIn= false;
 
 
 // console.log(typeof(Object));
+
+
+
+
+// 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥
+
+// Stack (Primitive), 
+// Heap (Reference (Non prrimitive))
+
+let mychannel = "RedCode";
+let anothername = mychannel;
+anothername="chaiaurcode";
+
+console.log(mychannel);
+console.log(anothername);
