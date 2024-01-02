@@ -35,6 +35,15 @@ let isLoggedIn= false;
 
 
 
+// const id =Symbol('123');
+// const anotherId= Symbol('123');
+// console.log(id === anotherId); //false
+// console.log(id == anotherId); //false
+
+const bigNumber= 123456789097654323456789875687647678363853686863863863n; // how to use
+
+
+
 //  Reference (Non prrimitive)
 //  Array,Objects, Funtion
 
