@@ -22,3 +22,14 @@ let isLoggedIn= false;
 // console.log(typeof null); // object 
 // console.log(typeof undefined); // undefined
 
+
+
+
+// 🟥🟥🟥🟥🟥🟥🟥🟥🏳️🏳️🏳️🏳️🏳️🏳️🏳️🏳️🏳️🟥🟥🟥🟥Primitiv
+
+// 7 types :  String, Number ,boolean ,null ,undefined, Symbole, BigInt
+
+
+//  Reference (Non prrimitive)
+//  Array,Objects, Funtion
+
