@@ -76,5 +76,5 @@ let mychannel = "RedCode";
 let anothername = mychannel;
 anothername="chaiaurcode";
 
-console.log(mychannel);
-console.log(anothername);
+// console.log(mychannel);
+// console.log(anothername);
