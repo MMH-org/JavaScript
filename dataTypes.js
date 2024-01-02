@@ -62,4 +62,4 @@ let isLoggedIn= false;
 
 
 
-console.log(typeof(Object));
+// console.log(typeof(Object));
