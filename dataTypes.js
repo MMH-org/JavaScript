@@ -40,10 +40,26 @@ let isLoggedIn= false;
 // console.log(id === anotherId); //false
 // console.log(id == anotherId); //false
 
-const bigNumber= 123456789097654323456789875687647678363853686863863863n; // how to use
-
-
+// const bigNumber= 123456789097654323456789875687647678363853686863863863n; // how to use
 
 //  Reference (Non prrimitive)
 //  Array,Objects, Funtion
 
+// const hero= ["shaktiman","naagraj","doga"]; // Array
+
+
+// let myObject={
+//     name:"md mohsin haider",
+//     age:22,
+// } 
+
+
+// const myFunction = function (){
+
+//     console.log("Hello world");
+// }
+
+
+
+
+console.log(typeof(Object));
