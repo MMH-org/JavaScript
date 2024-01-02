@@ -81,4 +81,3 @@ gameCounter++;
 // console.log(gameCounter);
 ++gameCounter;
 // console.log(gameCounter);
-
