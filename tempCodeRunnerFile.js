@@ -1,2 +1,4 @@
-console.log(gameName.charAt(4));
-// console.log(gameName.indexOf('m'));
+console.log(Math.random());
+// console.log(Math.random()*10);
+// console.log((Math.random()*10)+1);
+// console.log(M
