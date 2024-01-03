@@ -36,16 +36,25 @@ const obj3={...obj1,...obj2,...obj4};
 // users[1].email
 // console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(" "); // space 
-console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(" "); // space 
+// console.log(Object.values(tinderUser));
 
-console.log(" "); // space 
-console.log(Object.entries(tinderUser));
+// console.log(" "); // space 
+// console.log(Object.entries(tinderUser));
 
-console.log(" "); // space 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(" "); // space 
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
+const course = {
+    coursename:"js in hindi",
+    price:"990",
+    courseInstructor:"mohsin"
+}
 
+// course.courseInstructor
+
+const {courseInstructor} =course
+console.log(courseInstructor);
 
