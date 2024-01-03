@@ -25,6 +25,12 @@ const all_new_Heros = [...marvel_heros,...dc_heros];
 console.log(Array.isArray("mohsin")); // false
 console.log(Array.from("mohsin")); // [ 'm', 'o', 'h', 's', 'i', 'n' ] 
 
+console.log(Array.from({name:'mohsin'})); // []
+
+let score = 100;
+let score2= 200;
+let score3= 300;
+console.log(Array.of(score,score2,score3)); // [ 100, 200, 300 ]
 
 
 
