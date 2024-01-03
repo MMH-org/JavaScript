@@ -34,9 +34,14 @@ const obj3={...obj1,...obj2,...obj4};
 
 
 // users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
 console.log(Object.keys(tinderUser));
+console.log(" "); // space 
 console.log(Object.values(tinderUser));
 
+console.log(" "); // space 
+console.log(Object.entries(tinderUser));
 
+console.log(" "); // space 
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
