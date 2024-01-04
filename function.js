@@ -46,7 +46,7 @@ function loginUserMessage(username){
     //     console.log("Please Enter a username");
     //     return;
     // } // other type
-    
+
     if (!username) {
         console.log("Please Enter a username");
         return;
@@ -55,11 +55,15 @@ function loginUserMessage(username){
 }
 // console.log(loginUserMessage("devil")) // devil
 // console.log(loginUserMessage("")) // just Logged In 
-console.log(loginUserMessage()) // undefined just Logged In
+// console.log(loginUserMessage()) // undefined just Logged In
 
 
+// 🏳️
 
-
+function calculateCartPrice(...num1){ // restOprator ...num1
+    return num1
+}
+console.log(calculateCartPrice(2,6,7,800));
 
 
 
