@@ -57,7 +57,10 @@ const course = {
 
 
 // object destructuring in javascript
-// const {courseInstructor:instructor} =course
+// const {courseInstructor:instructor} =coursez
 // console.log(courseInstructor);
 // console.log(instructor);
+
+
+
 
