@@ -60,11 +60,33 @@ function loginUserMessage(username){
 
 // 🏳️
 
-function calculateCartPrice(...num1){ // restOprator ...num1
-    return num1
+// function calculateCartPrice(...num1){ // restOprator ...num1
+//     return num1
+// }
+// console.log(calculateCartPrice(2,6,7,800));
+
+// 🏳️
+
+// const user = {
+//     username:"mohsin",
+//     price:199
+// }
+// function handleObject(anyObject){
+//     console.log(`UserName is ${anyObject.username} and Price is ${anyObject.price}`);
+// }
+// // handleObject(user);
+// // handleObject({
+// //     username:"devil",
+// //     price:399
+// // })
+// handleObject(user)
+
+const myNewArray=[20,30,40,50,60,70];
+
+function ArrayData(getValue){
+    return getValue[3];
 }
-console.log(calculateCartPrice(2,6,7,800));
 
-
+console.log(ArrayData(myNewArray));
 
 
