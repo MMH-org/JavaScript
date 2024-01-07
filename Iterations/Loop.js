@@ -17,13 +17,26 @@ try {
 
 try {
     for (let index = 0; index <=10; index++) {
-        console.log(`Outer Loop: ${index}`);
-        for (let index = 0; index <=index; index++) {
-            console.log(`inner loop value ${index}`);
+        // console.log(`Outer Loop: ${index}`);
+        for (let index = 0; index <=2; index++) {
+            // console.log(`inner loop value ${index}`);
             
         }
         
     }
 } catch (error) {
     console.log(`hogya bhai khtam error cheek kar ${error}`);
+}
+
+
+// While loop/do while loop
+
+try {
+    let index=0;
+    while (index <= 10) {
+        console.log(`value is index ${index}`);
+        inde ++;
+    }
+} catch (error) {
+    console.log(`or bhai error kar liye fer ${error} type or error  is ${typeof(error)} and string is ${toString(error)}` );
 }
