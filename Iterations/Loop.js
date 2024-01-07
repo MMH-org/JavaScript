@@ -7,7 +7,7 @@ try {
         }
         
     }
-    // console.log("hello  bhai eha khatam karo hogya ");
+    console.log("hello  bhai eha khatam karo hogya ");
     
 
 
