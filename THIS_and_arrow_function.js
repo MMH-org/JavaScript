@@ -52,7 +52,13 @@ const user = {
 // const AddTwo = (num1,num2) => num1 + num2 // implicit return
 
 // const AddTwo = (num1,num2) => (num1 + num2) // () 
+// console.log(AddTwo(3,5));
 
-const AddTwo = (num1,num2) => ({KeyName_UserName:"Value_Name mohsin"}) // ({Objects return}) 
+// const Object_Return = () => ({KeyName_UserName:"Value_Name mohsin"}) // ({Objects return}) 
 
-console.log(AddTwo(3,5));
+// console.log(Object_Return());
+
+// const myArray= [2,5,6,7,5];
+
+// // myArray.forEach(function () {}) // 1.
+// myArray.forEach(()=> {}) // 2.
