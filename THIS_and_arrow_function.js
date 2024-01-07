@@ -51,7 +51,8 @@ const user = {
 
 // const AddTwo = (num1,num2) => num1 + num2 // implicit return
 
-const AddTwo = (num1,num2) => (num1 + num2) // () 
+// const AddTwo = (num1,num2) => (num1 + num2) // () 
 
+const AddTwo = (num1,num2) => ({KeyName_UserName:"Value_Name mohsin"}) // ({Objects return}) 
 
 console.log(AddTwo(3,5));
