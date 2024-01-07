@@ -16,3 +16,37 @@ const user = {
 
 // console.log(this);
 
+
+// function chai(){
+//     let username = "mohsin";
+//     console.log(this.username);
+// }
+// chai();
+
+
+
+
+// const chai = function(){
+//     let username = "mohsin";
+//     console.log(this.username);
+// }
+// chai();
+
+
+// const chai = () => {
+//     let username = "mohsin";
+//     console.log(this.username); // undefined
+//     console.log(this); // {}
+// }
+// chai();
+
+
+// basic arrwo functins
+// () => {}
+
+
+const AddTwo = (num1,num2) => {
+return num1 + num2;
+}
+
+
