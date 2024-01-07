@@ -18,7 +18,7 @@ try {
 try {
     for (let index = 0; index <=10; index++) {
         console.log(`Outer Loop: ${index}`);
-        for (let index = 0; index <= 10; index++) {
+        for (let index = 0; index <=index; index++) {
             console.log(`inner loop value ${index}`);
             
         }
