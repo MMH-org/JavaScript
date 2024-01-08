@@ -40,8 +40,18 @@ const array = [1,2,3,4,5,6,7,8,9,0]
 try {
     
     for (const iterator of array) {
-        console.log(iterator);
+        // console.log(iterator);
     }
 } catch (error) {
-    console.log(`🏳️ ha Bhai hogy error ${error}`);
+    // console.log(`🏳️ ha Bhai hogy error ${error}`); 
 }
+
+
+const greatings = "Hello world!"
+for (const great of greatings) {
+    // console.log(`Each char is ${great}`);
+}
+
+
+
+
