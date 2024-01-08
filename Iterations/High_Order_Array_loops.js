@@ -4,7 +4,7 @@
 // ["" , "" , ""]
 // [{} , {} , {}] //  array 
 []
-const arrs = [
+const arrsObj = [
     {
         color: "red",
         value: "#f00"
@@ -52,6 +52,30 @@ for (const great of greatings) {
     // console.log(`Each char is ${great}`);
 }
 
+
+
+//  🏳️ Maps
+
+const map = new Map();
+map.set('IN', "India");
+map.set('IN', "India");
+map.set('USA', "United State of India");
+map.set('Fs',"France");
+
+// console.log(map);
+
+for (const [key , value] of map) {
+    // console.log(key ,' :- ' ,value);
+}
+
+// const Obj = {
+//     game1:'nfs',
+//     game2:'spider'
+// }
+
+// for (const [key , value] of Obj) {
+//     console.log(key ,' :- ' ,value);// not iteratable
+// }
 
 
 
