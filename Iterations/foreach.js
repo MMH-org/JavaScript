@@ -26,5 +26,37 @@ const coding = ["js","ruby","java","pythone","cpp"];
 
 
 
+// coding.forEach( (item,index,arraylist)=>{
+//     console.log(item , index , arraylist);
+// })
+
+
+
+
+
+
+
+const mycodeing= [
+    {
+        langiageName:"javaScript",
+        languageFile:"js"
+    },
+    {
+        langiageName:"java",
+        languageFile:"java"
+    },
+    {
+        langiageName:"pythyon",
+        languageFile:"py"
+    },
+];
+
+mycodeing.forEach( (item)=>{
+    console.log(item.langiageName);
+} )
+
+
+
+
 
 
