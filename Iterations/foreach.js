@@ -51,8 +51,13 @@ const mycodeing= [
     },
 ];
 
-mycodeing.forEach( (item)=>{
-    console.log(item.langiageName);
+// mycodeing.forEach( (item )=>{
+    // console.log(item.langiageName);
+// } )
+
+
+mycodeing.forEach( (item , index,arraylist )=>{
+    console.log(item.langiageName,index,arraylist);
 } )
 
 
