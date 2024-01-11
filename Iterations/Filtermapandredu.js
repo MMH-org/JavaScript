@@ -14,12 +14,23 @@ const coding = ["js","ruby","java","pythone","cpp"];
 
 
 
+// const values = coding.forEach( (item) => {
+//     // console.log(item);
+//     return item;
+// } );
 
-const values = coding.forEach( (item) => {
-    console.log(item);
-    return item;
-} );
+// console.log(values);
 
-console.log(values);
+
+
+const myNums = [1,2,3,4,5,6,7,8,9,0];
+
+myNums.filter( (num) => num > 4 )
+
+
+
+
+
+
 
 
