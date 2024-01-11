@@ -42,10 +42,26 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 // console.log(newNums);
 
 
-const newNums = [];
+// const newNums = [];
 
-newNums.forEach
+// myNums.forEach( (num) => {
+//     if (num > 4) {
+//         newNums.push(num)
+//     }
+// } )
 
-console.log();
+// console.log(newNums);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
