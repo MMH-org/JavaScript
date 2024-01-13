@@ -1,4 +1,4 @@
-const myNums = [1,2,3];
+const myNums = [1,2,3,4];
 
 // const myTotal = myNums.reduce(function(acc ,currval ){
     
@@ -8,9 +8,31 @@ const myNums = [1,2,3];
 // console.log(myTotal);
 
 
-const myTotal = myNums.reduce( (acc , curr)=> acc + curr ,0);
-console.log(myTotal);
+// const myTotal = myNums.reduce( (acc , curr)=> acc + curr ,0);
+// console.log(myTotal);
 
 
+const shoppingCart = [
+    {
+        itemName:"js course",
+        price:2999
+    },
+    {
+        itemName:"py course",
+        price:2999
+    },
+    {
+        itemName:"mobile course",
+        price:5999
+    },
+    {
+        itemName:" data science course",
+        price:12999
+    },
+];
+
+const priceToPay = shoppingCart.reduce( (acc , item_denote_Obj_IN_Arr) => acc + item_denote_Obj_IN_Arr.price, 0);
+
+console.log(priceToPay);
 
 
