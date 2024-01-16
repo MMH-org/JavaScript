@@ -23,7 +23,7 @@
 
     function addOptiLanguage(langName){
         const li = document.createElement('li');
-        li.innerHTML = `${langName}`
+        li.appendChild(document.createTextNode(langName))
     }
 </script>
 </html>
