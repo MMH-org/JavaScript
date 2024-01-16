@@ -18,14 +18,12 @@
         appendChild(li)
     }
     addLanguage("Python");
-    addLanguage("TypeScript");
-    addLanguage("Java");
 
     function addOptiLanguage(langName){
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(langName))
-        document.querySelector('.language').appendChild('li');
+        document.querySelector('.language').appendChild(li)
     }
-    addOptiLanguage('golang');
+    addOptiLanguage('golang')
 </script>
 </html>
