@@ -1,0 +1,51 @@
+/* #contaner{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+
+} */
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling container */
+#contaner {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling banner */
+#banner {
+    background-color: #635c5c;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styling clock */
+#clock {
+    font-size: 24px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    /* Adjusting font size for smaller screens */
+    #clock {
+        font-size: 18px;
+    }
+}
+#clock {
+    font-size: 48px; /* Initial font size */
+    margin-top: 10px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    /* Adjusting font size for smaller screens */
+    #clock {
+        font-size: 36px;
+        background-color: blueviolet;
+    }
+}
