@@ -20,8 +20,9 @@ setInterval(function(){
 
 document.getElementById('images').addEventListener('click',function(){
     console.log("inner html images");
-},true) // false means bubbling and true means captureing
+},false) // false means bubbling and true means captureing
 
-document.getElementById('owl').addEventListener('click',function(){
+document.getElementById('owl').addEventListener('click',function(e){
     console.log("owl cliked");
-},true) // false means bubbling and true means captureing
+    e.stopPropagation();
+},false) // false means bubbling and true means captureing
