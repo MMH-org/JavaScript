@@ -26,3 +26,9 @@ document.getElementById('owl').addEventListener('click',function(e){
     console.log("owl cliked");
     e.stopPropagation();
 },false) // false means bubbling and true means captureing
+
+document.getElementById('google').addEventListener('click',function(e){
+    console.log("google clicked");
+    e.preventDefault();
+
+},false)
