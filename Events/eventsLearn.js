@@ -32,11 +32,10 @@ setInterval(function(){
 //     e.stopPropagation();
 // },false) // false means bubbling and true means captureing
 
-// document.getElementById('google').addEventListener('click',function(e){
-//     console.log("google clicked");
-//     e.preventDefault();
-
-// },false)
+document.getElementById('google').addEventListener('click',function(e){
+    console.log("google clicked");
+    e.preventDefault();
+},false)
 
 
 
@@ -44,6 +43,6 @@ setInterval(function(){
 document.querySelector('#images').addEventListener('click',function(e){
     console.log(e.target.parentNode)
     let removeIt = e.target.parentNode
-    // removeIt.remove()
-    removeIt.parentNode.removeChild(removeIt)
+    // removeIt.parentNode.removeChild(removeIt)
+    removeIt.remove()
 },false)
