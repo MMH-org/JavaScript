@@ -42,5 +42,5 @@ setInterval(function(){
 
 
 document.querySelector('#images').addEventListener('click',function(e){
-    console.log(e.target)
+    console.log(e.target.parentNode)
 },false)
