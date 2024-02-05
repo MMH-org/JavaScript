@@ -7,11 +7,21 @@ setInterval(function(){
 
 // document.getElementById('owl').onclick = function(){alert("hey owl")}
 
-document.getElementById('owl').addEventListener('click',function(){
-    alert('owl clicked again');
-    console.log("owl click");
-},false)
+// document.getElementById('owl').addEventListener('click',function(){
+//     alert('owl clicked again');
+//     console.log("owl click");
+// },false)
 
 // attachEvent();
 // jQuery - 'on' evelnts  and react jsx
 // target, toElement , srcElement , currentTarget
+
+
+
+document.getElementById('images').addEventListener('click',function(){
+    console.log("inner html images");
+},true)
+
+document.getElementById('owl').addEventListener('click',function(){
+    console.log("owl cliked");
+},true)
