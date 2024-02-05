@@ -12,23 +12,35 @@ setInterval(function(){
 //     console.log("owl click");
 // },false)
 
+
+
 // attachEvent();
 // jQuery - 'on' evelnts  and react jsx
 // target, toElement , srcElement , currentTarget
 
 
 
-document.getElementById('images').addEventListener('click',function(){
-    console.log("inner html images");
-},false) // false means bubbling and true means captureing
 
-document.getElementById('owl').addEventListener('click',function(e){
-    console.log("owl cliked");
-    e.stopPropagation();
-},false) // false means bubbling and true means captureing
 
-document.getElementById('google').addEventListener('click',function(e){
-    console.log("google clicked");
-    e.preventDefault();
 
+// document.getElementById('images').addEventListener('click',function(){
+//     console.log("inner html images");
+// },false) // false means bubbling and true means captureing
+
+// document.getElementById('owl').addEventListener('click',function(e){
+//     console.log("owl cliked");
+//     e.stopPropagation();
+// },false) // false means bubbling and true means captureing
+
+// document.getElementById('google').addEventListener('click',function(e){
+//     console.log("google clicked");
+//     e.preventDefault();
+
+// },false)
+
+
+
+
+document.querySelector('#images').addEventListener('click',function(e){
+    console.log(e.target.parentNode)
 },false)
