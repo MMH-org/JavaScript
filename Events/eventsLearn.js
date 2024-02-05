@@ -14,3 +14,4 @@ document.getElementById('owl').addEventListener('click',function(){
 
 // attachEvent();
 // jQuery - 'on' evelnts  and react jsx
+// target, toElement , srcElement , currentTarget
