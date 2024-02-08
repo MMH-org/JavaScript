@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Devil</h1>
+    <button id="stop">STOP</button>
+</body>
+<script>
+    const sayDevil = function () {
+        console.log("Mohsin");
+    }
+
+    const textChande = function () {
+        document.querySelector('h1').innerHTML
+    }
+    const changeMe = setTimeout(sayDevil, 2000);
+    
+    addEventListener('click',function(){
+        clearTimeout(changeMe);
+        console.log("STOPPED");
+    },false)
+</script>
+</html> 
