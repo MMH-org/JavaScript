@@ -11,20 +11,13 @@
 <body>
     <h1>Devil</h1>
     <button id="stop">STOP</button>
+    <button id="start">Start</button>
 </body>
 <script>
-    const sayDevil = function () {
-        console.log("Mohsin");
+    const sayDate= function (str) {
+        console.log("devil",Date.now());
     }
-
-    const textChande = function () {
-        document.querySelector('h1').innerHTML
-    }
-    const changeMe = setTimeout(sayDevil, 2000);
-    
-    addEventListener('click',function(){
-        clearTimeout(changeMe);
-        console.log("STOPPED");
-    },false)
+    const interval = setInterval(sayDate,1000, "hi");
+    clearInterval(interval)
 </script>
 </html> 
