@@ -14,12 +14,20 @@
     <button id="start">Start</button>
 </body>
 <script>
-    const sayDate= function () {
-        console.log("devil",Date.now());
+    const sayDate = function () {
+        console.log("devil", Date.now());
     }
-    const interval = setInterval(sayDate,1000);
+    const interval = setInterval(sayDate, 1000);
     clearInterval(interval);
     // home work
-    
+
+
+    const element = document.getElementById("start");
+
+    element.addEventListener("click", function () {
+        const interval = setInterval(sayDate, 1000);
+    });
+
 </script>
-</html> 
+
+</html>
