@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
 </head>
 
@@ -16,18 +16,22 @@
 <script>
     const sayDate = function () {
         console.log("devil", Date.now());
-    }
-    const interval = setInterval(sayDate, 1000);
-    clearInterval(interval);
-    // home work
+    };
+    // const interval = setInterval(sayDate, 1000); // main
+    // clearInterval(interval); // stop clear
 
-
+// home work
+    // for start
     const element = document.getElementById("start");
-
     element.addEventListener("click", function () {
         const interval = setInterval(sayDate, 1000);
-    });
 
+        // for stop
+        const element2 = document.getElementById("stop");
+        element2.addEventListener("click", function () {
+            clearInterval(interval);
+        });
+    });
 </script>
 
 </html>
